@@ -6,4 +6,9 @@ steps {
 echo "build"
 }
 }
+stages ("test") {
+steps {
+echo 'test'
+}
+}
 }
